@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aa3d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgb(196, 97, 97);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.background {
+  color: bisque;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+}
